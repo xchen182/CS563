@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Practise app</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="chen.css"> 
+</head>
+
+<body>
+    <h2 align="center">Maitre D</h2>
+    <table align="center" class="table"> 
+        <tr>
+            <td>Total: $</td>
+            <td><input type="number" id="total" min="0"></td>
+        </tr> 
+        <tr class="blank_row">
+            <td colspan="3"></td>
+        </tr>  
+        <tr>
+            <td>Tip: $<span id="tip"></span></td>
+            <td>Rate:<input type="number" id="tiprate" maxlength="4" size="4" placeholder="15">%</td>
+        </tr>
+        <tr>
+            <td>Tax: 5.5%</td>
+        </tr>
+        <tr>
+            <td>Grand total: $<span id="grandtotal"></span></td>
+        </tr>
+    </table>
+    <br>
+    <div style="text-align: center;"><button id="calculate" class="unstyledbtn">Calculate</button></td></div>
+</body>
+<script src="main.js"></script>
+
+</html>
